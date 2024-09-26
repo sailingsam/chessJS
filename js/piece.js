@@ -47,3 +47,8 @@ Piece.prototype.render = function(){
 Piece.prototype.kill = function(targetPiece){
     console.log("Method not implemeted by: " + typeof(this));
 }
+
+Piece.prototype.select = function() {
+    console.log("Piece selected: " + this.type);
+    // Add any additional logic for selecting a piece here
+};
