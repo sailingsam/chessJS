@@ -34,7 +34,7 @@
 
 
 .piece {
-  background-image: url('/assets/chess_sprite_transparent.png');
+  background-image: url('https://github.com/TheHero29/chessJS/blob/main/assets/chess_sprite_transparent.png?raw=true');
   background-repeat: no-repeat;
   background-size: 600% 200%;
 }
