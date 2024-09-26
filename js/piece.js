@@ -11,7 +11,9 @@ Piece.prototype.moveTo = function(targetPosition){
 
 
 Piece.prototype.attachListeners = function(){
-    //To be implemented
+    this.$el.addEventListener('click', () => {
+        this.select();
+    });
 }
 
 Piece.prototype.render = function(){

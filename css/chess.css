@@ -97,7 +97,7 @@
 .piece.selected {
   box-shadow: 0 0 10px 3px rgba(0, 255, 0, 0.7);
   transform: scale(1.1);
-  transition: all 0.3s ease;
+  /* transition: all 0.1s ease; */
   z-index: 10;
 }
 
